@@ -12,17 +12,6 @@ import android.widget.TextView;
 
 public class MsgAdapter extends BaseAdapter {
 
-	/*// 做图片又文本的布局
-	private static final int TYPE_IMAGE_TEXT = 0;
-	// 左文本又图片的布局
-	private static final int TYPE_TEXT_IMAGE = 1;
-	// 只显示图片的布局
-	private static final int TYPE_IMAGE_ONLY = 2;
-	// 只显示文本的布局
-	private static final int TYPE_TEXT_ONLY = 3;
-	// 布局的种类
-	private static final int TYPE_COUNT = 4;*/
-
 	private List<Msg> mList;
 
 	private LayoutInflater mInflater;
